@@ -1,0 +1,341 @@
+
+@font-face {
+    font-family: "AppleGothic";
+    src: local("Apple SD Gothic Neo"),
+         url("./font/AppleSDGothicNeo.woff2") format("woff2"),
+         url("./font/AppleSDGothicNeo.woff") format("woff"),
+         url("//db.onlinewebfonts.com/t/67680f2eb947c5cbd58b40961b4a61e9.woff2") format("woff2"), 
+         url("//db.onlinewebfonts.com/t/67680f2eb947c5cbd58b40961b4a61e9.woff") format("woff")
+}
+
+@font-face {
+    font-family: "Helveticanow";
+    font-style: normal;
+    font-weight: 400;
+    /* font-display: swap; */
+    src: url("./font/HelveticaNowDisplay-Medium.woff2") format("woff2"), 
+         url("./font/HelveticaNowDisplay-Medium.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Helveticanow";
+    font-weight: bold;
+    /* font-display: swap; */
+    src: url('./font/HelveticaNowDisplay-Bold.woff2') format("woff2"),
+         url("./font/HelveticaNowDisplay-Bold.woff") format("woff");
+}
+
+body {
+    margin: 30px;
+    padding: 0;
+    background: #000;
+    color: #fff;
+    font-family: 'Helveticanow', 'serif';
+}
+
+.korean {
+    font-family: 'AppleGothic', 'Apple SD Gothic Neo', 'serif';
+}
+
+.him-logo {
+    background-image: url('./img/Web_HIM_159x45.png');
+    background-size: cover;
+    width: 159px;
+    height: 45px;
+}
+
+.ega-logo {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-image: url('./img/Web_EGA_72x45.png');
+    background-size: cover;
+    width: 72px;
+    height: 45px;
+}
+
+.insta-logo {
+    background-image: url('./img/Web_Instagram_33x33.png');
+    background-size: cover;
+    width: 33px;
+    height: 33px;
+}
+
+.behance-logo {
+    background-image: url('./img/Web_Behance_33x33.png');
+    background-size: cover;
+    width: 33px;
+    height: 33px;
+}
+
+header {
+    margin-bottom: 200px;
+    position: relative;
+}
+
+.main {
+    max-width: 596px;
+}
+
+.main .main-title {
+    font-size: 30px;
+    font-weight: bold;    
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.main section {
+    font-size: 16px;
+    line-height: 26px;
+    word-break: keep-all;
+    margin-bottom: 25px;
+}
+
+.main .main-section3 {
+    max-width: 580px;
+    white-space: pre-line;
+}
+
+.main .main-section4 {
+    margin-bottom: 0;
+}
+
+.menu-wrap-list {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 990px;    
+}
+
+.menu-wrap {
+    width: 330px;
+    margin-top: 85px;
+}
+
+.menu-title {
+    font-size: 21px;
+    margin-bottom: 23px;
+    letter-spacing: 1px;
+}
+
+.menu-item {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 2px;
+    letter-spacing: 0.5px;
+}
+
+.googlemap-link {
+    margin-top: 20px;
+}
+
+.googlemap-link a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.googlemap-link:hover {
+    text-decoration: underline;
+}
+
+.sns-icon {
+    display: inline-block;
+    margin-right: 37px;
+    margin-top: 6px;
+}
+
+.eidetice-link {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+}
+
+.eidetice-link:hover {
+    text-decoration: underline;
+}
+
+.follow-us-divider {
+    line-height: 17px;
+    margin: 33px 0 30px -1px;
+}
+
+footer {
+    margin-top: 90px;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+}
+
+@media screen and (min-width: 420px) and (max-width: 1100px) {
+
+    .menu-wrap {
+        width: 50%;
+        min-width: 340px;
+    }
+    .menu-title {
+        margin-bottom: 23px;
+        letter-spacing: 1px;
+    }
+}
+
+
+@media screen and (min-width: 420px) and (max-width: 750px) {
+
+    header {
+        margin-bottom: 140px;
+        transition: margin 0.1s;
+    }
+
+    .menu-wrap {
+        margin-top: 50px;
+    }
+}
+
+
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+    /* Retina-specific stuff here */
+    .him-logo {
+        background-image: url('./img/Web_HIM_318x90.png');
+    }
+
+    .ega-logo {
+        background-image: url('./img/Web_EGA_144x90.png');
+    }
+
+    .insta-logo {
+        background-image: url('./img/Web_Instagram_66x66.png');
+    }
+
+    .behance-logo {
+        background-image: url('./img/Web_Behance_66x66.png');
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 420px) {
+    .him-logo {
+        background-image: url('./img/Moblie_logo 92x26.png');
+        width: 92px;
+        height: 26px;
+    }
+
+    .ega-logo {
+        background-image: url('./img/Web_EGA logo 25x39.png');
+        width: 39px;
+        height: 25px;
+    }
+
+    .insta-logo {
+        background-image: url('./img/Instagram_Mobile_Icon 26x26.png');
+        width: 26px;
+        height: 26px;
+    }
+
+    .behance-logo {
+        background-image: url('./img/Behance_Mobile_Icon 26x26.png');
+        width: 26px;
+        height: 26px;
+    }
+
+    body {
+        margin: 20px 20px 20px 19px;
+    }
+
+    .icon-mobile {
+        display: block;
+    }
+
+    .icon-desktop {
+        display: none;
+    }
+
+    header {
+        margin-bottom: 145px;
+    }
+
+    .main .main-title {
+        font-size: 24px;
+        margin-bottom: 23px;
+        margin-left: -1px;
+    }
+
+    .main section {
+        font-size: 13px;
+        line-height: 21px;
+        margin-bottom: 21px;
+    }
+
+    .main .main-section2 {
+        margin-bottom: 21px;
+    }
+
+    .main .main-section3 {
+        white-space: normal;
+        margin-right: 5px;
+    }
+
+    .menu-wrap {
+        width: 100%;
+        margin-top: 39px;
+    }
+
+    .menu-title {
+        font-size: 17px;
+        margin-bottom: 18px;
+        padding: 0;
+        letter-spacing: 0.2px;
+    }
+
+    .menu-title.no-padding {
+        margin-left: -1px;
+    }
+
+    .menu-item {
+        font-size: 13px;
+        line-height: 21px;
+        margin-bottom: 0;
+    }
+
+    .award.menu-wrap {
+        margin-left: -1px;
+    }
+
+    .award .menu-title {
+        margin-bottom: 20px;
+    }
+
+    .award .menu-item {
+        line-height: 20px;
+        letter-spacing: 0.1px;
+        margin-left: -1px;
+    }
+
+    .contact-us .menu-title {
+        margin-top: 2px;
+    }
+
+    .sns-icon {
+        margin-right: 30px;
+        margin-top: 6px;
+        margin-left: -1px;
+    }
+
+    .eidetice-link {
+        font-size: 13px;
+        line-height: 21px;
+        margin-left: -1px;
+    }
+
+    .follow-us-divider {
+        font-size: 13px;
+        line-height: 17px;
+        margin: 0 0 4px -1px;
+    }
+
+    footer {
+        font-size: 11px;
+        margin-bottom: 39px;
+    }
+}
