@@ -31,6 +31,8 @@ body {
     background: #000;
     color: #fff;
     font-family: 'Helveticanow', 'serif';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .korean {
@@ -48,9 +50,9 @@ body {
     position: absolute;
     right: 0;
     top: 0;
-    background-image: url('./img/Web_EGA_72x45.png');
+    background-image: url('./img/Web_EGA_70x45.png');
     background-size: cover;
-    width: 72px;
+    width: 70px;
     height: 45px;
 }
 
@@ -113,6 +115,7 @@ header {
 
 .menu-title {
     font-size: 21px;
+    font-weight: bold;    
     margin-bottom: 23px;
     letter-spacing: 1px;
 }
@@ -202,7 +205,7 @@ footer {
     }
 
     .ega-logo {
-        background-image: url('./img/Web_EGA_144x90.png');
+        background-image: url('./img/Web_EGA_140x90.png');
     }
 
     .insta-logo {
@@ -216,25 +219,25 @@ footer {
 
 @media screen and (min-width: 320px) and (max-width: 420px) {
     .him-logo {
-        background-image: url('./img/Moblie_logo 92x26.png');
+        background-image: url('./img/Moblie_logo 184x52.png');
         width: 92px;
         height: 26px;
     }
 
     .ega-logo {
-        background-image: url('./img/Web_EGA logo 25x39.png');
-        width: 39px;
-        height: 25px;
+        background-image: url('./img/Mobile_EGA_82x52.png');
+        width: 41px;
+        height: 26px;
     }
 
     .insta-logo {
-        background-image: url('./img/Instagram_Mobile_Icon 26x26.png');
+        background-image: url('./img/Instagram_Mobile_Icon 52x52.png');
         width: 26px;
         height: 26px;
     }
 
     .behance-logo {
-        background-image: url('./img/Behance_Mobile_Icon 26x26.png');
+        background-image: url('./img/Behance_Mobile_Icon 52x52.png');
         width: 26px;
         height: 26px;
     }
@@ -339,3 +342,12 @@ footer {
         margin-bottom: 39px;
     }
 }
+
+[x-apple-data-detectors] {
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+  }
