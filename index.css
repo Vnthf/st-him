@@ -50,7 +50,7 @@ body {
     position: absolute;
     right: 0;
     top: 0;
-    background-image: url('./img/Web_EGA_70x45.png');
+    background-image: url('./img/Web_EGA_69x45.png');
     background-size: cover;
     width: 70px;
     height: 45px;
@@ -205,7 +205,7 @@ footer {
     }
 
     .ega-logo {
-        background-image: url('./img/Web_EGA_140x90.png');
+        background-image: url('./img/Web_EGA_138x90.png');
     }
 
     .insta-logo {
@@ -225,7 +225,7 @@ footer {
     }
 
     .ega-logo {
-        background-image: url('./img/Mobile_EGA_82x52.png');
+        background-image: url('./img/Mobile_EGA_80x52.png');
         width: 41px;
         height: 26px;
     }
