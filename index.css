@@ -205,7 +205,8 @@ footer {
     }
 
     .ega-logo {
-        background-image: url('./img/Web_EGA_138x90.png');
+        background-image: url('./img/EGA_133x90.png');
+        height: 47px;
     }
 
     .insta-logo {
